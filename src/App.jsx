@@ -8,7 +8,7 @@ function App() {
   useEffect(() => {
     async function fetchdata() {
       try{
-        const response=await getProfiles("")
+        const response=await getProfiles("https://670023424da5bd2375534f6d.mockapi.io/api/v1/makeine")
         setprofiles(response)
         console.log(profiles)
       }catch(error){
