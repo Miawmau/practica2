@@ -8,7 +8,7 @@ const Profile = (props) => {
   return (
     <div className="contenedor">
       <img className="avatar" src={profile.avatar} alt="" />
-      <Information name={profile.avatar} info={profile.avatar} />
+      <Information name={profile.name} info={profile.info} />
       <Button />
     </div>
   );

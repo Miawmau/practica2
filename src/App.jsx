@@ -15,7 +15,7 @@ function App() {
         console.log("error en traer")
       }
     }
-    fetchdata
+    fetchdata();
   }, [])
     return (
     <>
